@@ -1,11 +1,9 @@
 :root {
-    --first-color-text:#000;
-    --second-color-text:#333;
-    --color-white: white;
-    iris:#4D5AE5;
-
-}
-
+    --navyblue-color-text:#2E2F42;
+    --iris-color-text:#4D5AE5;
+    --color-white:white;
+    
+    }
 
 body {
     font-family: 'Roboto', 'Raleway', 'Verdana', sans-serif;
@@ -23,25 +21,32 @@ a {
 
 button {
     color:var(--color-white);
-    background-color: var(--iris);
+    background-color: var(--iris-color-text);
 }
 
 a:hover, button:hover {
-    color: orange;
+    color: white;
+    background-color: #404BBF;
 }
 .logo {
-    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
-    color:#4D5AE5;
-    color:var(--first-color-text);
-    font-weight: 800;
+    color:var(--navyblue-color-text);
 }
 
-.logo .highlight {
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--second-color-text);
-    font-weight: 800;
+.highlight {
+    color: var(--iris-color-text);
+}
+
+.logo .link {
+    color: #434455
+}
+
+.logo .link:hover {
+    color: #404BBF;
 }
