@@ -13,11 +13,16 @@ body {
     color: #404BBF;
 }
 
-.highlight {
-    color: var(--iris-color-text);
-}
+
 
 a:hover,
 button:hover {
     background-color: #404BBF;
+}
+
+
+body {
+    font-family: 'Roboto', 'Raleway', 'Verdana', sans-serif;
+    color: #434455;
+    line-height: 1.6;
 }
