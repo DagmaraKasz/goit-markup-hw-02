@@ -8,6 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color:#434455;
     line-height: 1.6;
+    background-color: var(--color-white)
 }
 
 header {
@@ -41,15 +42,21 @@ button:hover {
     letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
-    color:var(--navyblue-color-text);
+    color:#4d5ae5;
 }
+
+.list {
+    list-style: none;
+}
+
+
 
 .highlight {
     color: var(--iris-color-text);
 }
 
 .studio-highlight {
-    color: var(--navyblue-color-text);
+    color: #2e2f42;
 }
 
 .pointer {
