@@ -4,3 +4,20 @@ body {
     background-color: #FFFFFF;
     line-height: 1.6;
 }
+
+.logo .link {
+    color: #434455
+}
+
+.logo .link:hover {
+    color: #404BBF;
+}
+
+.highlight {
+    color: var(--iris-color-text);
+}
+
+a:hover,
+button:hover {
+    background-color: #404BBF;
+}

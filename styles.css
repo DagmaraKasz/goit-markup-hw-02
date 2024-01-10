@@ -24,10 +24,16 @@ button {
     background-color: var(--iris-color-text);
 }
 
-a:hover, button:hover {
-    color: white;
+a:hover,
+button:hover {
     background-color: #404BBF;
 }
+
+a:hover,
+button:hover {
+    color: #FFFFFF;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -39,14 +45,31 @@ a:hover, button:hover {
     color:var(--navyblue-color-text);
 }
 
-.highlight {
+.pointer {
+    cursor: pointer;
+}
+
+
+
+.header-list {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--navyblue-color-text);
+}
+
+class="buttons"
+.buttons {
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--iris-color-text);
-}
-
-.logo .link {
-    color: #434455
-}
-
-.logo .link:hover {
-    color: #404BBF;
-}
+    background-color: #F4F4FD;
+    }
