@@ -13,7 +13,10 @@ body {
     color: #404BBF;
 }
 
-
+a:hover,
+button:hover {
+    color: #FFFFFF;
+}
 
 a:hover,
 button:hover {

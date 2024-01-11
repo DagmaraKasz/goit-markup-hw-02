@@ -1,37 +1,73 @@
 :root {
-    --navyblue-color-text:#2E2F42;
-    --iris-color-text:#4D5AE5;
-    --color-white:#FFFFFF;
+    --iris-color: #4D5AE5;
+    --ocean-color: #404BBF;
+    --navyblue-color:#2E2F42;
+    --green-color: #31D0AA;
+    --slate-color: #434455;
+    --light-slate-color: #8E8F99;
+    --cornflower-color: #E7E9FC;
+    --cloud-color: #F4F4FD;
+    --navyblue-modal-color: #2E2F42;
+    --grey-color: #2E2F42;
+    --white-color: #FFFFFF;
+    --dairy-color: #FCFCFC;   
     }
 
 body {
     font-family: 'Roboto', sans-serif;
-    color:#434455;
+    color: var(--navyblue-color);
     line-height: 1.6;
-    background-color: var(--color-white)
+    background-color: var(--white-color);
 }
 
 header {
-    background-color: var(--color-white);
+    background-color: var(--white-color);
 }
 
 a {
     text-decoration: none;
 }
 
+.menu .link {
+    color: var(--navyblue-color);
+}
+
+.menu .link:hover,
+.menu .link:focus {
+    color: var(--green-color);
+}
+
+.menu .link:active {
+    color: var(--ocean-color);
+}
+
 button {
-    color:var(--color-white);
-    background-color: var(--iris-color-text);
+    color:var(--white-color);
+    background-color: var(--iris-color);
 }
 
 a:hover,
 button:hover {
-    background-color: #404BBF;
+    background-color: var(--ocean-color);
 }
 
-a:hover,
-button:hover {
-    color: #FFFFFF;
+/* tu skonczylam sprawdzac */
+/* dodac address list slate na ocean */
+
+.contact .link {
+    color: var(--slate-color);
+}
+.contact .link:hover,
+.contact .link:focus {
+    color: var(--green-color);
+}
+.contact .link:active {
+    color: var(--ocean-color);
+}
+
+/* main section h1 */
+.section {
+    background-color: var(--navyblue-color, #2e2f42);
 }
 
 .logo {
@@ -42,12 +78,19 @@ button:hover {
     letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
-    color:#4d5ae5;
-    
+    color: var(--iris-color);
+    }
+
+.highlight {
+     color: var(--iris-color);
+}
+.studio-highlight {
+     color: var(--navyblue-color);
 }
 
 .list {
     list-style: none;
+    font-style: normal;
 }
 
 .link {
@@ -56,26 +99,13 @@ button:hover {
     letter-spacing: 0.02em;
 }
 
-.highlight {
-    color: var(--iris-color-text);
-}
-
-.studio-highlight {
-    color: var(--navyblue-color-text);
-}
-
 .pointer {
     cursor: pointer;
 }
 
-address {
+.address {
     display: block;
     font-style: normal;
-}
-
-.list {
-    font-style: normal;
-    list-style: none;
 }
 
 .header-list {
@@ -86,14 +116,15 @@ address {
     letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
-    color: var(--navyblue-color-text);
+    color: var(--navyblue-color);
 }
 
-.title {
-    color: #ffffff;
+/* nie moze byc pusty */
+.visually-hidden {
+    color: var(--white-color);
 }
 
-class= "buttons"
+/* class= "buttons" */
 .buttons {
     list-style: none;
     font-family: "Roboto", sans-serif;
