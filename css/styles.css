@@ -28,6 +28,7 @@ a {
     text-decoration: none;
 }
 
+/* klasa menu dla index.html */
 .menu .link {
     color: var(--navyblue-color);
 }
@@ -59,23 +60,23 @@ button:hover {
 }
 .contact .link:hover,
 .contact .link:focus {
-    color: var(--green-color);
+    color: var(--ocean-color);
 }
 .contact .link:active {
     color: var(--ocean-color);
 }
 
-/* main section h1 */
-.section {
-    .descriptions {
-        background-color: var(--navyblue-color, #2e2f42);
-        font-size: 56px;
-        line-height: 1.07;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: #ffffff;
-    }
+/* main section h1, przycisk Order Service na index.html przyciski w portfolio*/
+
+.list-buttons {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
 }
+
+/* main section, przycisk Order Service na index.html 
 /* class= "buttons" */
 .button-index {
     font-family: inherit;
@@ -88,10 +89,22 @@ button:hover {
     color: var(--white-color);
     background-color: var(--ocean-color);
 }
+
 a:hover,
 .button-index:hover {
-    background-color: var(--ocean-color);
+        background-color: var(--ocean-color);
 }
+
+
+
+/* tło dla tekstu effective solutions w index.html */
+.descriptions {
+    background-color: var(--navyblue-color, #2e2f42);
+    color: var(--white-color);
+}
+/* przycisk order service dla index.html */
+
+
 /* logo w nawigacji */
 .logo {
     font-family: "Raleway", sans-serif;
@@ -104,11 +117,12 @@ a:hover,
     color: var(--iris-color);
     }
 
+    /* logo dwukolorowe WEBSTUDIO */
 .highlight {
      color: var(--iris-color);
 }
 .studio-highlight {
-     color: var(--navyblue-color);
+    color: var(--navyblue-color);
 }
 
 .list {
@@ -190,7 +204,7 @@ a:hover,
 /* akapit dla tej sekcji wzięty z sekcji drugiej */
 
 /* sekcja main dla portfolio.html */
-.list-buttons {
+.buttons-main .list-buttons {
     list-style: none;
     font-family: "Roboto", sans-serif;
     font-weight: 500;

@@ -23,6 +23,26 @@ button:hover {
     background-color: #404BBF;
 }
 
+.button-index {
+    button {
+        color: var(--white-color);
+        background-color: var(--iris-color);
+    }
+
+    a:hover,
+    button:hover {
+        background-color: var(--ocean-color);
+    }
+}
+
+a:hover,
+.button-index:hover {
+    background-color: var(--ocean-color);
+}
+
+
+
+
 
 body {
     font-family: 'Roboto', 'Raleway', 'Verdana', sans-serif;
