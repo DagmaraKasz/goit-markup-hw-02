@@ -15,7 +15,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--navyblue-color);
+    color: var(--slate-color);
     line-height: 1.6;
     background-color: var(--white-color);
 }
@@ -34,7 +34,7 @@ a {
 
 .menu .link:hover,
 .menu .link:focus {
-    color: var(--green-color);
+    color: var(--ocean-color);
 }
 
 .menu .link:active {
@@ -67,9 +67,32 @@ button:hover {
 
 /* main section h1 */
 .section {
-    background-color: var(--navyblue-color, #2e2f42);
+    .descriptions {
+        background-color: var(--navyblue-color, #2e2f42);
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+    }
 }
-
+/* class= "buttons" */
+.button-index {
+    font-family: inherit;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    background-color: var(--ocean-color);
+}
+a:hover,
+.button-index:hover {
+    background-color: var(--ocean-color);
+}
+/* logo w nawigacji */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -108,14 +131,33 @@ button:hover {
     font-style: normal;
 }
 
-.header-list {
+/* druga sekcja */
+.features-elements {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-decoration: none;
-    text-transform: uppercase;
+    color: var(--navyblue-color);
+}
+.akapit {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--slate-color);
+}
+/* trzecia sekcja */
+.scope-section {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-decoration: none;
     color: var(--navyblue-color);
 }
 
@@ -124,17 +166,41 @@ button:hover {
     color: var(--white-color);
 }
 
-/* class= "buttons" */
-.buttons {
+/* czwarta sekcja */
+.people {
+    background-color: var(--cloud-color);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--navyblue-color);
+}
+
+.list-people {
+    background-color: var(--white-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--slate-color);
+}
+/* akapit dla tej sekcji wzięty z sekcji drugiej */
+
+/* sekcja main dla portfolio.html */
+.list-buttons {
     list-style: none;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--iris-color-text);
-    background-color: #F4F4FD;
-    }
+    text-decoration: none;
+    color: var(--iris-color);
+}
+
 
 .page-footer {
     background-color:#2e2f42;
