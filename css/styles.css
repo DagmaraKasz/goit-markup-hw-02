@@ -60,6 +60,13 @@ a {
     color: var(--ocean-color);
 }
 
+.contact {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
 /* main section h1, przycisk Order Service na index.html przyciski w portfolio*/
 
 .list-buttons {
@@ -141,7 +148,7 @@ a {
     font-style: normal;
 }
 
-/* druga sekcja */
+/* druga sekcja 'Solutions' */
 .list features {
     list-style: none;
 }
@@ -163,7 +170,7 @@ a {
     text-decoration: none;
     color: var(--slate-color);
 }
-/* trzecia sekcja */
+/* trzecia sekcja 'What we are doing'*/
 .subtitle {
     font-size: 36px;
     line-height: 1.11;
@@ -174,9 +181,11 @@ a {
     color: var(--navyblue-color);
 }
 
-/* czwarta sekcja */
-.our-team {
+/* czwarta sekcja Our Team */
+.people {
     background-color: var(--cloud-color);
+}
+.our-team {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -186,7 +195,7 @@ a {
     color: var(--navyblue-color);
 }
 
-.list-people {
+.people-names {
     background-color: var(--white-color);
     font-weight: 500;
     font-size: 20px;
@@ -232,6 +241,13 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
 }
 
 
