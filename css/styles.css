@@ -47,11 +47,6 @@ button {
     background-color: var(--iris-color);
 }
 
-a:hover,
-button:hover {
-    background-color: var(--ocean-color);
-}
-
 /* tu skonczylam sprawdzac */
 /* dodac address list slate na ocean */
 
@@ -90,17 +85,18 @@ button:hover {
     background-color: var(--ocean-color);
 }
 
-a:hover,
 .button-index:hover {
         background-color: var(--ocean-color);
 }
 
-
-
 /* tło dla tekstu effective solutions w index.html */
 .descriptions {
     background-color: var(--navyblue-color, #2e2f42);
-    color: var(--white-color);
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 /* przycisk order service dla index.html */
 
