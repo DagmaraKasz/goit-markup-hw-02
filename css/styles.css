@@ -79,9 +79,10 @@ a {
     color: var(--white-color);
     background-color: var(--iris-color);
 }
-
+.button-index:focus,
 .button-index:hover {
-        background-color: var(--ocean-color);
+    background-color: var(--ocean-color);
+    cursor: pointer;
 }
 
 /* tło dla tekstu effective solutions w index.html */
@@ -124,9 +125,7 @@ a {
 }
 
 .link {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .pointer {
@@ -139,6 +138,9 @@ a {
 }
 
 /* druga sekcja */
+.list features {
+    list-style: none;
+}
 .features-elements {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -192,7 +194,7 @@ a {
 /* akapit dla tej sekcji wzięty z sekcji drugiej */
 
 /* sekcja main dla portfolio.html */
-.buttons-main {
+.list-buttons {
     list-style: none;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -234,4 +236,5 @@ a {
     color: var(--cloud-color);
     letter-spacing: 0.02em;
 }
+
 
