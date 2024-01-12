@@ -87,6 +87,8 @@ a {
 /* tło dla tekstu effective solutions w index.html */
 .descriptions {
     background-color: var(--navyblue-color, #2e2f42);
+}
+.title {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -214,7 +216,9 @@ a {
     color: var(--white-color);
 }
 
-
+.list {
+    list-style: none;
+}
 
 .page-footer {
     background-color:#2e2f42;
@@ -223,6 +227,11 @@ a {
     p {
         font-size: 16px;
         color: #F4F4FD;
-
     }
             }
+.footer-info {
+    line-height: 1.5;
+    color: var(--cloud-color);
+    letter-spacing: 0.02em;
+}
+
