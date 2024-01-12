@@ -42,11 +42,6 @@ a {
     color: var(--ocean-color);
 }
 
-button {
-    color:var(--white-color);
-    background-color: var(--iris-color);
-}
-
 /* tu skonczylam sprawdzac */
 /* dodac address list slate na ocean */
 
@@ -82,7 +77,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white-color);
-    background-color: var(--ocean-color);
+    background-color: var(--iris-color);
 }
 
 .button-index:hover {
@@ -171,11 +166,6 @@ button {
     color: var(--navyblue-color);
 }
 
-/* nie moze byc pusty */
-.visually-hidden {
-    color: var(--white-color);
-}
-
 /* czwarta sekcja */
 .people {
     background-color: var(--cloud-color);
@@ -200,16 +190,30 @@ button {
 /* akapit dla tej sekcji wzięty z sekcji drugiej */
 
 /* sekcja main dla portfolio.html */
-.buttons-main .list-buttons {
+.buttons-main {
     list-style: none;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-decoration: none;
+ }
+.buttons {
     color: var(--iris-color);
+    background-color: var(--cloud-color);
 }
+.buttons:focus,
+.buttons:hover {
+    color: var(--white-color);
+    background-color: var(--ocean-color);
+    cursor: pointer;
+    }
+
+/* nie moze byc pusty naglowek dla portfolio.html*/
+.visually-hidden {
+    color: var(--white-color);
+}
+
 
 
 .page-footer {
