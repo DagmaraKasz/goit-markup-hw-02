@@ -144,7 +144,6 @@ a {
 }
 
 .address {
-    display: block;
     font-style: normal;
 }
 
@@ -209,9 +208,9 @@ a {
     background-color: var(--white-color);
 }
     
-.akapit {
+/* .akapit {
     color:  var(--slate-color);
-}
+} */
 
 /* akapit dla tej sekcji wzięty z sekcji drugiej */
 
