@@ -201,16 +201,16 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--slate-color);
+    color: var(--navyblue-color);
 }
 
 .list-people {
     color: var(--slate-color);
+    background-color: var(--white-color);
 }
     
 .akapit {
     color:  var(--slate-color);
-    background-color: var(--white-color);
 }
 
 /* akapit dla tej sekcji wzięty z sekcji drugiej */
