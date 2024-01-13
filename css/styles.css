@@ -205,6 +205,11 @@ a {
 }
 
 .list-people {
+    color: var(--slate-color);
+}
+    
+.akapit {
+    color:  var(--slate-color);
     background-color: var(--white-color);
 }
 
@@ -252,6 +257,10 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate-color);
+}
+
+.link{
+    text-decoration: none;
 }
 
 
