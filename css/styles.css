@@ -196,7 +196,6 @@ a {
 }
 
 .people-names {
-    background-color: var(--white-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -204,6 +203,11 @@ a {
     text-decoration: none;
     color: var(--slate-color);
 }
+
+.list-people {
+    background-color: var(--white-color);
+}
+
 /* akapit dla tej sekcji wzięty z sekcji drugiej */
 
 /* sekcja main dla portfolio.html */
